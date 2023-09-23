@@ -1,3 +1,9 @@
+var runFromWebsite;
+if (window.location.href == "https://captainmudkip1.github.io/edpuzzle-speed-control/install.html") {
+  runFromWebsite = true;
+} else {
+  runFromWebsite = false;
+}
 var popup = null;
 var base_url;
 if (typeof document.dev_env != "undefined") {
