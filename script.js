@@ -1,7 +1,3 @@
-if (!window.location.href.startsWith("https://edpuzzle.com")) {
-  alert("To use this, drag this button into your bookmarks bar. Then, run it when you're on an Edpuzzle assignment.");
-  window.stop();
-}
 var popup = null;
 var base_url;
 if (typeof document.dev_env != "undefined") {
@@ -39,6 +35,9 @@ function init() {
   }
   else if (window.schoologyMoreLess) {
     handleSchoologyURL();
+  }
+  else if (runFromWebsite) {
+    alert("To use this, drag this button into your bookmarks bar. Then, run it when you're on an Edpuzzle assignment.");
   }
   else {
     alert("Please run this script on an Edpuzzle assignment. For reference, the URL should look like this:\nhttps://edpuzzle.com/assignments/{ASSIGNMENT_ID}/watch");
