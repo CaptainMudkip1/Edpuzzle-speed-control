@@ -1,4 +1,4 @@
-if (!window.href.location.startsWith("https://edpuzzle.com")) {
+if (!window.location.href.startsWith("https://edpuzzle.com")) {
   alert("To use this, drag this button into your bookmarks bar. Then, run it when you're on an Edpuzzle assignment.");
   window.stop();
 }
