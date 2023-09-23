@@ -9,7 +9,7 @@ if (typeof document.dev_env != "undefined") {
 }
 else {
   //get resources off of github to not inflate the jsdelivr stats
-  base_url = "http://localhost";
+  base_url = "https://captainmudkip1.github.io/edpuzzle-speed-control";
 }
 
 function http_get(url, callback, headers=[], method="GET", content=null) {

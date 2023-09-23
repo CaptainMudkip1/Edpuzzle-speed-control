@@ -10,4 +10,4 @@ Allows you to change the speed of videos on Edpuzzle and play them in the backgr
 
 ## Installation
 
-Go to [this](https://captainmudkip1.github.io/apps/edpuzzle-control/install.html) link and drag the button to your bookmarks bar.
+Go to [this](https://captainmudkip1.github.io/edpuzzle-speed-control/install.html) link and drag the button to your bookmarks bar.
